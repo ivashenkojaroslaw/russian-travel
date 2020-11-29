@@ -20,3 +20,6 @@
 $ git clone https://github.com/ivashenkojaroslaw/russian-travel.git
 run index.html 
 ```
+
+## Ссылка для просмотра проекта
+*https://ivashenkojaroslaw.github.io/russian-travel/*
