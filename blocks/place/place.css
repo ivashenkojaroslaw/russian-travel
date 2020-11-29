@@ -2,10 +2,6 @@
     display: grid;
     gap: 48px 3vw;
     grid-template-columns: repeat(2, minmax(36.5vw, max-content));
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;*/
     margin: 0;
     margin-bottom: 80px;
 }
@@ -22,8 +18,7 @@
 }
 
 @media screen and (max-width: 320px){
-    .place{      
-        margin-bottom: 64px;
+    .place{
         grid-template-columns: repeat(1, minmax(90vw, max-content));
         gap: 32px 0;
         margin-bottom: 49px;
