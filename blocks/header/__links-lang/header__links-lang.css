@@ -1,0 +1,12 @@
+.header__links-lang{
+    margin: 46px 48px 0 0;
+    padding: 0;
+}
+
+
+
+@media screen and (max-width: 465px) {
+    .header__links-lang {   
+        margin: 30px 16px 0 0;
+    }
+} 

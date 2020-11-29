@@ -1,0 +1,23 @@
+.place__link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.place__link:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 465px){
+    .place__link{      
+        font-size: 14px;
+        line-height: 18px;
+        
+    }
+}
