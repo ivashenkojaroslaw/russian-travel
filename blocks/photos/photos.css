@@ -1,24 +1,23 @@
 .photos{
-    width: 92.5vw;
     display: grid;
-    gap: 1.5vw;
-    grid-template-columns: repeat(4,minmax(22vw, max-content));
+    gap: 1.5%;
+    grid-template-columns: repeat(4,minmax(22%, max-content));
 }
 
 @media screen and (max-width: 1024px) {
     .photos {      
-        grid-template-columns: repeat(3, minmax(29vw,1fr));
+        grid-template-columns: repeat(3, minmax(29%,1fr));
     }
 } 
 
 @media screen and (max-width: 768px) {
     .photos {      
-        grid-template-columns: repeat(2, minmax(44vw,1fr));
+        grid-template-columns: repeat(2, minmax(44%,1fr));
     }
 } 
 
 @media screen and (max-width: 320px) {
     .photos {      
-        grid-template-columns: repeat(1,minmax(88vw,1fr));
+        grid-template-columns: repeat(1,minmax(88%,1fr));
     }
 } 

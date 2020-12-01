@@ -1,7 +1,7 @@
 .place{
     display: grid;
-    gap: 48px 3vw;
-    grid-template-columns: repeat(2, minmax(36.5vw, max-content));
+    gap: 48px 3%;
+    grid-template-columns: repeat(2, minmax(36.5%, max-content));
     margin: 0;
     margin-bottom: 80px;
 }
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 320px){
     .place{
-        grid-template-columns: repeat(1, minmax(90vw, max-content));
+        grid-template-columns: repeat(1, minmax(90%, max-content));
         gap: 32px 0;
         margin-bottom: 49px;
     }

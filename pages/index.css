@@ -1,8 +1,13 @@
+@import url(../vendor/normalize/normalize.css);
+
+@import url(../vendor/fonts/Inter-Web/inter.css);
+
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links-lang/header__links-lang.css);
 @import url(../blocks/header/__link/header__link.css);

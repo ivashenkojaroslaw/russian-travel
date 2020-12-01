@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 0 24px 0;
-    margin: 0 3.75vw 0 3.75vw;
+    margin: 0 3.75% 0 3.75%;
 }
 
 @media screen and (max-width: 520px){
@@ -16,9 +16,7 @@
 }
 
 @media screen and (max-width: 465px){
-    .footer{      
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 0 0 0 16px;
+    .footer{              
+        align-items: flex-start;        
     }
 }
