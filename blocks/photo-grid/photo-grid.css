@@ -1,15 +1,26 @@
 .photo-grid{
-    margin: 92px 3.75%;    
+    margin: 92px 3.75%;
+    display: grid;
+    gap: 1.5%;
+    grid-template-columns: repeat(4,minmax(22%, max-content));    
 }
 
+@media screen and (max-width: 1024px) {
+    .photo-grid {      
+        grid-template-columns: repeat(3, minmax(29%,1fr));
+    }
+} 
+
 @media screen and (max-width: 768px) {
-    .photo-grid{      
+    .photo-grid {      
+        grid-template-columns: repeat(2, minmax(44%,1fr));
         margin: 88px 3.75%;
     }
 } 
 
 @media screen and (max-width: 320px) {
-    .photo-grid{      
+    .photo-grid {      
+        grid-template-columns: repeat(1,minmax(88%,1fr));
         margin: 64px 3.75%;
     }
-}
+} 

@@ -11,19 +11,18 @@
         <header class="header">
             <img src="images/header-logo.svg" alt="Логотип России" class="header__logo">
             <ul class="header__links-lang">
-                <li class="header__list-item"><a class="header__link header__link_lang_ru" href="#" target="_self">Ru</a></li>
-                <li class="header__list-item"><a class="header__link header__link_lang_en" href="#" target="_self">En</a></li>
+                <li class="header__list-item"><a class="header__link header__link_underline" href="#" target="_self">Ru</a></li>
+                <li class="header__list-item"><a class="header__link" href="#" target="_self">En</a></li>
             </ul>
         </header>
         <main class="main">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <div class="lead__images">
-                    <img src="images/lead-polka.jpg" alt="Полка поезда" class="lead__image">
-                    <img src="images/railway.svg" alt="Путь" class="lead__path">
-                </div>
-                <p class="lead__caption">ваша полка — верхняя</p>              
+                <figure class="lead__images">
+                    <img src="images/train.svg" alt="Полка поезда" class="lead__image">                    
+                    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                </figure>                           
             </section>
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -35,15 +34,14 @@
                     усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, 
                     достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__item-list">Часовых поясов 11</li>
-                    <li class="intro__item-list">Объектов природного наследия ЮНЕСКО 12</li>
-                    <li class="intro__item-list">Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li class="intro__item-list">Природных заповедников 105</li>
-                    <li class="intro__item-list">Аэропортов 241</li>
+                    <li class="intro__item-list">Часовых поясов <span class="digit">11</span></li>
+                    <li class="intro__item-list">Объектов природного наследия ЮНЕСКО <span class="digit">12</span></li>
+                    <li class="intro__item-list">Объектов культурного наследия ЮНЕСКО <span class="digit">16</span></li>
+                    <li class="intro__item-list">Природных заповедников <span class="digit">105</span></li>
+                    <li class="intro__item-list">Аэропортов <span class="digit">241</span></li>
                 </ul>
             </section>
-            <section class="photo-grid">
-                <div class="photos">
+            <section class="photo-grid">                
                     <img src="images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item">
                     <img src="images/photo-grid-atharva-tulsi.jpg" alt="Горы" class="photo-grid__item">
                     <img src="images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
@@ -55,11 +53,10 @@
                     <img src="images/photo-grid-kamchatka-1.jpg" alt="Камчатка1" class="photo-grid__item">
                     <img src="images/photo-grid-kamchatka-2.jpg" alt="Камчатка2" class="photo-grid__item">
                     <img src="images/photo-grid-baikal-2.jpg" alt="Байкал2" class="photo-grid__item">
-                    <img src="images/photo-grid-ergaki.jpg" alt="Туман в горах" class="photo-grid__item">
-                </div>
+                    <img src="images/photo-grid-ergaki.jpg" alt="Туман в горах" class="photo-grid__item">                
             </section>
             <section class="places">
-                <div class="place">                    
+                <article class="place">                    
                     <h2 class="place__title">Куршская коса</h2>                                      
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -75,8 +72,8 @@
                             Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. 
                             Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                     </div>                      
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Кольский</h2>                    
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -92,8 +89,8 @@
                             Но ваша мечта увидеть северное сияние начинает сбываться с билетом
                             в Мурманск.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Алтай</h2>                    
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -108,8 +105,8 @@
                             Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, 
                             а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Зимний Байкал</h2>                    
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -122,8 +119,8 @@
                         <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
                             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>    
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Карелия</h2>                    
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -137,7 +134,7 @@
                             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
                             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                     </div>
-                </div>
+                </article>
             </section>
             <section class="cover">
                 <div class="cover__text">
