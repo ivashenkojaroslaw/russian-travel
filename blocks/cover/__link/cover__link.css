@@ -1,6 +1,6 @@
 .cover__link{
     width: 100%;
-    min-height: calc(92.5vw/1.6);
+    min-height: calc(1280px/1.6);
     background-image: url(../../../images/cover-trains.jpg);
     background-color: rgba(42, 44, 47, 0.3);
     background-position: center;
