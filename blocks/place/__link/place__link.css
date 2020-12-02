@@ -1,5 +1,4 @@
-.place__link{
-    
+.place__link{    
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -17,6 +16,6 @@
 @media screen and (max-width: 320px){
     .place__link{      
         font-size: 14px;
-        line-height: 16px;        
+        line-height: 16px;   
     }
 }

@@ -1,5 +1,4 @@
-.header__link{
-    
+.header__link{    
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -17,6 +16,6 @@
 @media screen and (max-width: 465px) {
     .header__link {      
         font-size: 18px;
-        line-height: 20px;       
+        line-height: 20px;
     }
 } 

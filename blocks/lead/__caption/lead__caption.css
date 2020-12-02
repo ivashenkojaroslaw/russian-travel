@@ -7,7 +7,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     padding: 0;
-    margin: 8px auto 0 auto;  
+    margin: 8px auto 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,5 +19,6 @@
 @media screen and (max-width: 320px) {
     .lead__caption {     
         padding-left: 16px;
+        margin: 0;
     }
 } 

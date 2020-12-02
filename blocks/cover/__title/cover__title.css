@@ -7,14 +7,14 @@
     color: #FFFFFF;
     margin: 0 0 32px 0;
     padding: 0;
-    max-width: 560px;      
+    max-width: 560px;  
 }
 
 
 @media screen and (max-width: 565px){
     .cover__title{      
         font-size: 42px;
-        line-height: 46px;        
+        line-height: 46px;    
     }
 }
 
