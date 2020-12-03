@@ -8,14 +8,14 @@
     padding: 0;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 950px){
     .place__title{      
         font-size: 42px;
         line-height: 46px;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 465px){
     .place__title{      
         font-size: 32px;
         line-height: 35px;

@@ -13,7 +13,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 465px){
     .place__link{      
         font-size: 14px;
         line-height: 16px;   
