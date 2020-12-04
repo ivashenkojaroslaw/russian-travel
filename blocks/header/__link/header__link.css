@@ -13,9 +13,7 @@
 .header__link:hover{
     opacity: 0.8;
 }
-.header__link:nth-child(1){
-    margin-right: 18px;
-}
+
 
 @media screen and (max-width: 465px) {
     .header__link {      
